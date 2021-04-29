@@ -38,30 +38,36 @@ completed by Adesh Dangi
     Click/Visit on link :  http://127.0.0.1:8000/
 
 #How to start on web-browser
-  1. Visit server link
+
+  1. Visit server link :  http://127.0.0.1:8000
+ 
   2. Audiotype in link :
       Songs
-        http://127.0.0.1:8000/song
-      Podcasts
-        http://127.0.0.1:8000/podcast
+      -  http://127.0.0.1:8000/song
+        
+      Podcast
+      -  http://127.0.0.1:8000/podcast
+        
       Audiobooks
-        http://127.0.0.1:8000/audiobook
+      -  http://127.0.0.1:8000/audiobook
+        
   3. GET/POST <audiotype>/ [All data of type]
       Songs
-        http://127.0.0.1:8000/song/song
+      -  http://127.0.0.1:8000/song/song
       Podcasts
-        http://127.0.0.1:8000/podcast/podcast
+      -  http://127.0.0.1:8000/podcast/podcast
       Audiobooks
-        http://127.0.0.1:8000/audiobook/audiobook
+      -  http://127.0.0.1:8000/audiobook/audiobook
+    
   4. DELETE/PUT/PATCH <audiotype>/<audio:id>
-          [update or delete specific]
-        demo :   http://127.0.0.1:8000/song/song/1
+        [update or delete specific]
+      -  demo :   http://127.0.0.1:8000/song/song/1
         Songs
-            http://127.0.0.1:8000/song/song/<id:song>
+      -      http://127.0.0.1:8000/song/song/<id:song>
         Podcasts
-            http://127.0.0.1:8000/podcast/podcast/<id:podcast>
+      -      http://127.0.0.1:8000/podcast/podcast/<id:podcast>
         Audiobooks
-            http://127.0.0.1:8000/audiobook/audiobook/<id:audiobook>
+      -      http://127.0.0.1:8000/audiobook/audiobook/<id:audiobook>
 
 
 
